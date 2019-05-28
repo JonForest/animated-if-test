@@ -1,0 +1,12 @@
+<h1>Test content</h1>
+<button {{action this.toggleContent}} style="background-color:gray; color: white; padding: 5px;">Toggle content</button>
+<AnimatedContainer>
+    {{#animated-if this.showContent use=this.resize}}
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    {{/animated-if}}
+</AnimatedContainer>
